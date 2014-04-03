@@ -82,7 +82,7 @@ if internet_on() and validate_photo_url(url):
 	profileid = check_profile_id(fbid)
 	if profileid == False:
 		print "fbid".ljust(18), fbid
-		print "id".ljust(18), "Only friends"
+		print "id".ljust(18), "Friends Only"
 		sys.exit(0)
 		
 	info = show_profile_id(profileid)
