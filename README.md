@@ -1,7 +1,7 @@
 FBid
 ====
 
-Show info by facebook photo url
+Show info about the author by facebook photo url
 
 **Usage**
 
