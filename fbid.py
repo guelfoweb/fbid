@@ -62,7 +62,7 @@ def show_profile_id(profileid):
 		return False
 
 def help():
-	print "Facebook ID photo url analysis"
+	print "Facebook ID photo url analyzer"
 	print "Gianni 'guelfoweb' Amato"
 	print
 	print "Usage: ".ljust(4), "fbid.py <photo url>"
