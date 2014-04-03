@@ -28,7 +28,7 @@ locale             it_IT
 username           guelfoweb
 </pre>
 
-<code>python fbid.py https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t31.0-8/1275272_10101026493146301_791186452_o.jpg</code>
+<code>$ python fbid.py https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t31.0-8/1275272_10101026493146301_791186452_o.jpg</code>
 
 <pre>
 id                 4
