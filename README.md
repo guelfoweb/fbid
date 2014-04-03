@@ -15,7 +15,7 @@ Show info about the author by facebook photo url.
 Example
 =======
 
-**Public Photo**
+**#1 Public Photo**
 
 <code>$ python fbid.py https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/t1.0-9/1464008_10151964855117182_1514212999_n.jpg</code>
 
@@ -30,7 +30,7 @@ locale             it_IT
 username           guelfoweb
 </pre>
 
-**Public Photo**
+**#2 Public Photo**
 
 <code>$ python fbid.py https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t31.0-8/1275272_10101026493146301_791186452_o.jpg</code>
 
@@ -45,7 +45,7 @@ locale             en_US
 username           zuck
 </pre>
 
-**Friends Only**
+**#3 Friends Only**
 
 <code>$ python fbid.py https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn1/t31.0-8/q71/s720x720/10014193_10202338252912446_446761276_o.jpg</code>
 
