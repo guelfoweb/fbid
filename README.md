@@ -1,4 +1,4 @@
-FBid
+FBid - NOT WORK - DEPRECATED
 ====
 
 Show info about the author by facebook photo url.
