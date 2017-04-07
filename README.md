@@ -5,7 +5,7 @@ Show info about the author by facebook photo url.
 
 **Usage**
 
-<code>$ fbid.py [fb photo url]</code>
+<code>$ fbid.py [photo url or photo name]</code>
 
 
 **Download**
@@ -17,39 +17,37 @@ Example
 
 **#1 Public Photo**
 
-<code>$ python fbid.py https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/t1.0-9/1464008_10151964855117182_1514212999_n.jpg</code>
+<code>$ python fbid.py https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/1464008_10151964855117182_1514212999_n.jpg?oh=c958a419eba666f6055dfb9198488949&oe=5951B763</code>
 
 <pre>
-id                 565977181
-name               Gianni Amato
-first_name         Gianni
-last_name          Amato
-link               https://www.facebook.com/guelfoweb
-gender             male
-locale             it_IT
-username           guelfoweb
+{
+    "status": "Public Photo",
+    "profileid": "https://www.facebook.com/565977181",
+    "name": "Gianni Amato",
+    "photourl": "https://www.facebook.com/photo.php?fbid=10151964855117182"
+}
 </pre>
 
 **#2 Public Photo**
 
-<code>$ python fbid.py https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/t31.0-8/1275272_10101026493146301_791186452_o.jpg</code>
+<code>$ python fbid.py https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/17796398_10103620488783251_6704415260282737996_n.jpg?oh=dfef5c1b69beb09fd050e7a5875ca647&oe=5950CA1E</code>
 
 <pre>
-id                 4
-name               Mark Zuckerberg
-first_name         Mark
-last_name          Zuckerberg
-link               https://www.facebook.com/zuck
-gender             male
-locale             en_US
-username           zuck
+{
+    "status": "Public Photo",
+    "profileid": "https://www.facebook.com/4",
+    "name": "Mark Zuckerberg",
+    "photourl": "https://www.facebook.com/photo.php?fbid=10103620488783251"
+}
 </pre>
 
 **#3 Friends Only**
 
-<code>$ python fbid.py https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn1/t31.0-8/q71/s720x720/10014193_10202338252912446_446761276_o.jpg</code>
+<code>$ python fbid.py https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/17352554_10212767417642835_6881613682551204540_n.jpg?oh=a0254e4f3fe71df0ee8b9d5b7e8c1239&oe=5992E344</code>
 
 <pre>
-fbid               10202338252912446
-id                 Friends Only
+{
+    "status": "Friends Only",
+    "photourl": "https://www.facebook.com/photo.php?fbid=10212767417642835"
+}
 </pre>
