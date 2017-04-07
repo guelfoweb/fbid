@@ -1,7 +1,7 @@
 FB Photo Id
 ====
 
-Show info about the author by facebook photo url.
+Show info about the author by facebook photo url or filename.
 
 **Usage**
 
